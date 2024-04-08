@@ -1,0 +1,9 @@
+{
+  "extends": "ts-config-single-spa",
+  "files": ["src/app-root-config.ts"],
+  "compilerOptions": {
+    "declarationDir": "dist"
+  },
+  "include": ["src/**/*", "react-app/src/App.js", "react-app/src/Login.js", "react-app/src/AuthContext.js", "react-app/src/ProtectedRoute.js", "Login/src/AuthProvider.js", "Login/src/App.js", "Login/src/Home.js"],
+  "exclude": ["src/**/*.test*"]
+}
